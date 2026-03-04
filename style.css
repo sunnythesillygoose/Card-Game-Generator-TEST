@@ -1,0 +1,50 @@
+body {background-color: rgb(235, 43, 43);}
+
+h1 {
+    font-size: 5cm;
+    font-style: italic;
+    position: relative;
+}
+
+ .img-box{
+
+      display:flex;
+
+      flex-direction:column;
+
+      gap:12px;
+      
+      position: relative;
+
+    }
+
+    .img-wrapper{
+
+      display:flex;
+
+      justify-content:center;
+
+      background: #daba30;
+
+      padding: 12px;
+
+      height: 600px;
+
+      width: 400px;
+
+      border-radius: 8px;
+
+      border: 1px solid #000000;
+
+      position: relative;
+    }
+
+    .targetimage{
+
+       position: absolute; 
+       alignment-baseline: top ;
+    }
+
+    .hide{
+        display: none;
+    }

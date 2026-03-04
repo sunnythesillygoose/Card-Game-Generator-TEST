@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Playing Card Generator</title>
+</head>
+<body>
+    <div><h1 id="title">PLAYING CARD GENERATOR</h1></div>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="500" value="200" class="slider" id="myRange">
+  <p>Value: <span id="demo"></span></p>
+</div>
+
+   <div><h2>Wait nevermind Im just experimenting, ignore the tear stains</h2></div>
+
+<br>
+  <button onclick="myFunction()">Copy</button>
+<br>
+
+<div class="img-box">
+
+      <div class="img-wrapper">
+
+        <img id="targetImage" src="https://picsum.photos/id/1025/400/300" alt="Minta kép" width="400" height="300">
+
+      </div>
+  
+</div>
+<br>
+
+<h2>PEEKABOO</h2>
+
+<img id="pet1" src="https://wallpapers.com/images/hd/terrier-cute-dog-picture-sgvst5gdp79mh893.jpg" alt="Minta kép" width="300" height="300" class="hide">
+
+<img id="pet2" src="https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTk2ODE2NDcyMDc1NDEyNTQy/why-are-cats-cute.jpg" alt="Minta kép" width="300" height="300" class="hide">
+
+<img id="pet3" src="https://media-be.chewy.com/wp-content/uploads/2022/09/27100039/pug-cute-dogs.jpg" alt="Minta kép" width="300" height="300" class="hide">
+
+<br>
+  <button onclick="show1()">1</button>
+  <button onclick="show2()">2</button>
+  <button onclick="show3()">3</button>
+<repeat n="5"><br></repeat>
+
+<h2 onmouseover="mouse(this)" >PEEKABOO x2</h2>
+
+
+  <img id="pet4" src="https://wallpapers.com/images/hd/terrier-cute-dog-picture-sgvst5gdp79mh893.jpg" alt="Minta kép" width="300" height="300" class="hide"
+     style="position: relative;">
+
+  <img id="pet5" src="https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTk2ODE2NDcyMDc1NDEyNTQy/why-are-cats-cute.jpg" alt="Minta kép" width="300" height="300" class="hide"
+  style="position: relative; left: 350px;">
+
+  <img id="pet6" src="https://media-be.chewy.com/wp-content/uploads/2022/09/27100039/pug-cute-dogs.jpg" alt="Minta kép" width="300" height="300" class="hide"
+  style="position: relative; left: 700px;">
+
+<br>
+  <button onclick="show4()" style="position: relative; top: 200px;">4</button>
+  <button onclick="show5()" style="position: relative; top: 200px; left: 450px;">5</button>
+  <button onclick="show6()" style="position: relative; top: 200px; left: 780px;">6</button>
+<br>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
